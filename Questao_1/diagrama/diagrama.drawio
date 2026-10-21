@@ -1,0 +1,79 @@
+<mxfile host="65bd71144e">
+    <diagram id="VVoO0vlkkmAhlZMJGAym" name="Page-1">
+        <mxGraphModel dx="1650" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-50" edge="1" parent="1" source="DNtJdJ2cGs99RHGxGNqe-1" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="DNtJdJ2cGs99RHGxGNqe-31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PassagemAerea" vertex="1">
+                    <mxGeometry height="52" width="140" x="150" y="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-7" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PasagemRodoviaria" vertex="1">
+                    <mxGeometry height="52" width="140" x="330" y="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-48" edge="1" parent="1" source="DNtJdJ2cGs99RHGxGNqe-11" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="DNtJdJ2cGs99RHGxGNqe-31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-11" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PassagemFerroviaria" vertex="1">
+                    <mxGeometry height="52" width="140" x="510" y="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-45" edge="1" parent="1" source="DNtJdJ2cGs99RHGxGNqe-15" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DNtJdJ2cGs99RHGxGNqe-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-15" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="EmissorAerea" vertex="1">
+                    <mxGeometry height="52" width="370" x="-120" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-16" parent="DNtJdJ2cGs99RHGxGNqe-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ criarPassagem(passageiro : String, tarifa : double) : IPassagem" vertex="1">
+                    <mxGeometry height="26" width="370" y="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-51" edge="1" parent="1" source="DNtJdJ2cGs99RHGxGNqe-27" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DNtJdJ2cGs99RHGxGNqe-31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-27" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="IEmissor" vertex="1">
+                    <mxGeometry height="70" width="360" x="265" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-28" parent="DNtJdJ2cGs99RHGxGNqe-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ criarPassagem(passageiro : String, tarifa : double) : IPassagem&lt;br&gt;+ emitir(passageiro : String, tarifa : double) : void" vertex="1">
+                    <mxGeometry height="44" width="360" y="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-31" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Classname" vertex="1">
+                    <mxGeometry height="90" width="205" x="425" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-32" parent="DNtJdJ2cGs99RHGxGNqe-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getModal() : String&lt;br&gt;+ getPassageiro() : String&lt;br&gt;+ calcularTaxaEmbarque() : double&lt;br&gt;+ getDocumentosExigidos() : String" vertex="1">
+                    <mxGeometry height="64" width="205" y="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-47" edge="1" parent="1" source="DNtJdJ2cGs99RHGxGNqe-36" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DNtJdJ2cGs99RHGxGNqe-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-36" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Classname" vertex="1">
+                    <mxGeometry height="52" width="370" x="650" y="199" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-37" parent="DNtJdJ2cGs99RHGxGNqe-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ criarPassagem(passageiro : String, tarifa : double) : IPassagem" vertex="1">
+                    <mxGeometry height="26" width="370" y="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-43" edge="1" parent="1" source="DNtJdJ2cGs99RHGxGNqe-38" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="DNtJdJ2cGs99RHGxGNqe-27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-46" edge="1" parent="1" source="DNtJdJ2cGs99RHGxGNqe-38" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DNtJdJ2cGs99RHGxGNqe-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-38" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Classname" vertex="1">
+                    <mxGeometry height="52" width="370" x="260" y="199" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-39" parent="DNtJdJ2cGs99RHGxGNqe-38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ criarPassagem(passageiro : String, tarifa : double) : IPassagem" vertex="1">
+                    <mxGeometry height="26" width="370" y="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-42" edge="1" parent="1" source="DNtJdJ2cGs99RHGxGNqe-36" style="edgeStyle=none;html=1;entryX=0.504;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="DNtJdJ2cGs99RHGxGNqe-28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-44" edge="1" parent="1" source="DNtJdJ2cGs99RHGxGNqe-15" style="edgeStyle=none;html=1;entryX=0.495;entryY=1.074;entryDx=0;entryDy=0;entryPerimeter=0;" target="DNtJdJ2cGs99RHGxGNqe-28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DNtJdJ2cGs99RHGxGNqe-49" edge="1" parent="1" source="DNtJdJ2cGs99RHGxGNqe-7" style="edgeStyle=none;html=1;entryX=0.485;entryY=0.968;entryDx=0;entryDy=0;entryPerimeter=0;" target="DNtJdJ2cGs99RHGxGNqe-32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
